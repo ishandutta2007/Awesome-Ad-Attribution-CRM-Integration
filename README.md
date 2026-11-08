@@ -32,77 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global marketing attribution software market is estimated at approximately **$5.5 billion to $6.0 billion in 2026**, projected to expand rapidly toward **$15B–$21B by 2030–2032** at a 15–20% CAGR driven by privacy shifts, signal loss, and AI-driven cross-channel measurement. The industry exhibits a **hybrid, moderately fragmented landscape**: while enterprise cloud giants (such as Salesforce, Adobe, and Google) dominate generalized CRM/marketing cloud budgets, the specialized attribution space remains dynamic and fragmented across distinct sub-verticals (mobile measurement partners, B2B pipeline attribution, and e-commerce multi-touch attribution) where niche, specialized platforms prevent a single winner-take-all outcome.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **AppsFlyer**
-
-  **Mobile attribution and marketing analytics** platform. **Pricing**: **Zero (free)** for owned media only (12K free conversions first year); **Growth (pay-as-you-go)** with **$0.07 per conversion** after 12K free; **Enterprise** custom pricing . **Free tier**: Yes, Zero plan for owned media. **Best for**: mobile-first companies needing the industry's most mature SKAN modeling, fraud protection, and deep linking—**trade-off**: per-conversion costs scale with paid campaigns; premium features (Protect360, raw data API) require Enterprise.
-
-
-
-- **Singular**
-
-  **Marketing attribution and analytics** platform. **Pricing**: **Starting at $795/month** per Software Advice . **Free tier**: None. **Best for**: teams wanting unified data aggregation across partners with API-driven ETL for ROAS calculations—**trade-off**: saved reports can become cluttered; no public free tier .
-
-
-
-- **Branch**
-
-  **Mobile linking and attribution** platform. **Pricing**: **Basics, Essentials, Enterprise** tiers; Essentials adds unlimited partners and SKAN clarity; Enterprise adds CTV/OTT attribution, advanced SKAN modeling, and API flexibility; **pricing scales with growth** (no public rates) . **Free tier**: Basics tier available (feature-limited). **Best for**: teams prioritizing deep linking and cross-platform attribution alongside measurement—**trade-off**: SKAN modeling and CTV require higher tiers .
-
-
-
-- **Adjust**
-
-  **Mobile measurement partner (MMP)** with attribution and analytics. **Pricing**: **Quote-only**; reviewers describe pricing as "competitive" and "cost effective" compared to competitors . **Free tier**: None. **Best for**: cost-conscious teams wanting core MMP capabilities—**trade-off**: reviewers report **weak anti-fraud** and **poorly designed cost API**; platform has "not evolved at the same pace as the market" .
-
-
-
-- **Rockerbox**
-
-  **Unified marketing measurement** (MTA + MMM + incrementality). **Pricing**: **No public pricing**—plans page is "Talk to an Expert" only; **warehouse integration is a paid add-on**; free/Starter tiers retired . **Free tier**: None (retired). **Best for**: teams wanting multi-touch attribution and media mix modeling on first-party data with warehouse-native delivery—**trade-off**: no self-serve; warehouse integration costs extra; no public API .
-
-
-
-- **Triple Whale**
-
-  **E-commerce analytics and attribution** for Shopify brands. **Pricing**: **Foundation, Automate, Enterprise** tiers; **Sonar (AI) included in all paid packages**; attribution models include First Click, Last Click, Linear, Triple Attribution, and Total Impact (with post-purchase survey data); **SOC 2 compliant** . **Free tier**: None. **Best for**: DTC brands wanting attribution and BI in one platform with fast setup (~15 minutes)—**trade-off**: e-commerce-focused; not B2B or mobile-app-centric .
-
-
-
-- **Ruler Analytics**
-
-  **Marketing attribution for lead-gen** with call tracking and CRM integration. **Pricing**: **Quote-only**; reviewers note it is **cheaper than competing call-tracking platforms** and offers good value; discounts available for multi-year commitments and volume . **Free tier**: None. **Best for**: B2B and service businesses needing call tracking, form tracking, and CRM revenue attribution—**trade-off**: setup effort; contract flexibility noted as a concern by some reviewers .
-
-
-
-- **Dreamdata**
-
-  **B2B revenue attribution** platform. **Pricing**: **Free $0/month** (B2B web analytics, cookie/cookieless tracking, company identification, audience builder, ad spend report; limits: 2 months history, 5 seats, 3 stage models); **Advanced** custom pricing (AI attribution, advanced activation, MCP server, data warehouse add-on) . **Free tier**: Yes, genuinely usable for small B2B teams. **Best for**: B2B companies wanting company-level attribution with a free starting point—**trade-off**: advanced AI and activation require custom pricing .
-
-
-
-- **HockeyStack**
-
-  **B2B attribution and analytics** platform. **Pricing**: **Quote-only**; reviewers cite **lengthy onboarding** (one reviewer cancelled after 4 months due to data connection failure) and **90% of touchpoints requiring manual mapping** . **Free tier**: None. **Best for**: teams wanting cookieless funnel tracking with automatic goals—**trade-off**: onboarding risk is significant; support structure "visibly strained" per reviewers .
-
-
-
-- **Zoho CRM for Google Ads**
-
-  **Native Google Ads integration** within Zoho CRM. **Pricing**: Included with Zoho CRM Professional (₹1,400/user/month) and above . **Free tier**: Limited (CRM free tier for 3 users). **Best for**: Zoho CRM users wanting to manage Google Ads campaigns and track ROI within their CRM—**trade-off**: Google Ads only; not a multi-channel attribution platform .
+| Platform | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier / Trial Limits | Key Features & Focus |
+|---|---|---|---|---|
+| **Zoho CRM (Google Ads Integration)** | **~$12.5B Valuation** / ~$1.5B ARR (FY25) | Starts at **$23/user/month** (billed annually) for Professional edition (required tier for Google Ads integration) | **Permanent Free tier** for up to 3 users (Google Ads integration excluded); **15-day free trial** of paid Professional/Enterprise tiers with no credit card required | Native Google Ads campaign management and offline conversion tracking directly within CRM. |
+| **Adjust** | **$1.0B Acquisition** by AppLovin (Parent ~$90B Market Cap) / ~$100M+ ARR | Starts at **$0** (Base tier); paid commercial plans start at custom quote (~**$500–$1,500/month** min. contract commitment) | **Base Free plan**: Up to 1,500 monthly conversions (capped at 18,000 annual conversions) for the first year with core attribution & Datascape analytics | Mobile Measurement Partner (MMP) for mobile app attribution, deep linking, and campaign analytics. |
+| **Branch** | **$4.0B Valuation** (Series F) / ~$125M ARR | Starts at **$39/month** (Intro plan after trial) or **$199/month** (Activation Basics); Performance Basics at **$499/month** | **30-day free trial** of paid tiers (requires credit card with temporary $10 hold); defaults to $39/mo plan if not cancelled | Enterprise deep linking, cross-platform attribution, SKAdNetwork modeling, and mobile web-to-app tracking. |
+| **AppsFlyer** | **$2.7B Valuation** (Series E) / ~$500M ARR | Starts at **$0** (Zero plan); paid Growth tier starts at **$0.07/conversion** (pay-as-you-go after free allowance) | **Zero Free plan**: Free forever for owned media (unlimited organic installs); **Growth Welcome Package**: First 12,000 paid conversions free for 12 months + 30-day trial of premium add-ons (no credit card required) | Industry-leading mobile attribution and marketing analytics with SKAN modeling and fraud prevention. |
+| **Triple Whale** | **~$380M Valuation** (Series B) / ~$21.6M ARR | Starts at **$219/month** (Foundation tier for lower GMV stores) | **Free Plan**: Free forever for early-stage stores (Triple Pixel, first/last-click attribution, 12-month data retention, up to 10 users; no multi-touch MTA) | E-commerce attribution, BI, and AI analytics platform purpose-built for Shopify and DTC brands. |
+| **Singular** | **~$150M–$200M Est. Valuation** / ~$52.6M ARR | Free Starter tier; paid Growth plan starts around **$795/month** (or ~$0.05/conversion custom) | **Starter Free plan**: Up to 15,000 free attributed conversions per month (organic installs always free, no credit card required); **14-day free trial** for analytics/ETL | Unified marketing analytics, mobile attribution, automated cost aggregation, and ROAS calculations. |
+| **Rockerbox** | **$85M Acquisition** by DoubleVerify / ~$10M–$15M ARR | Enterprise custom quotes starting at ~**$2,000/month** ($24,000/year minimum contract) | **No free tier and no free trial** (previous Starter tiers retired; access requires scheduling a sales demo) | Multi-touch attribution (MTA), Media Mix Modeling (MMM), and incrementality testing on first-party data. |
+| **HockeyStack** | **~$80M–$100M Est. Valuation** / ~$9M ARR | Baseline plans start around **$599–$1,200/month** (typical annual contracts range $12,000–$30,000/year) | **No free tier and no free trial** (interactive demo available online; full stack onboarding requires sales engagement) | B2B multi-touch attribution, cookieless account tracking, and AI revenue agents. |
+| **Dreamdata** | **~$30M–$50M Est. Valuation** ($67M total raised) / ~$3M ARR | Starts at **$0/month** (Free plan); paid Team/Growth tiers start at **$750–$999/month** (billed annually) | **Free Plan**: Free forever (B2B web analytics, cookieless tracking, company reveal, 2 months data history, up to 5 seats) | B2B revenue and pipeline attribution connecting marketing activities to CRM deals and revenue. |
+| **Ruler Analytics** | **Private / Bootstrapped** / ~$3M ARR | Starts at **$149–$179/month** for entry-level tier (scaling up to $999/month for enterprise) | **No free tier and no free trial** (evaluation requires scheduling a guided product demo with sales) | Multi-touch attribution, closed-loop revenue tracking, form tracking, and dynamic call tracking for lead gen. |
 
 
 
