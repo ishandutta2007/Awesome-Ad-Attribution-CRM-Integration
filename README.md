@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Ad-Attribution-CRM-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Ad-Attribution-CRM-Integration?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Ad-Attribution-CRM-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Ad-Attribution-CRM-Integration?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Ad-Attribution-CRM-Integration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Ad-Attribution-CRM-Integration?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Ad-Attribution-CRM-Integration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -61,7 +61,7 @@ The global marketing attribution software market is estimated at approximately *
 
 Curated open-source attribution libraries, media mix modeling engines, and mobile tracking SDKs sorted in **descending order by GitHub stargazers count**.
 
-| Project | Stars | Language / Ecosystem | Description & Methodologies |
+| Project | GitHub_Stars | Language / Ecosystem | Description & Methodologies |
 |---|---|---|---|
 | **[facebookexperimental/Robyn](https://github.com/facebookexperimental/Robyn)** | [![Stars](https://img.shields.io/github/stars/facebookexperimental/Robyn?style=social&color=white)](https://github.com/facebookexperimental/Robyn/stargazers) | R / Meta | 🧠 Experimental, AI/ML-powered Marketing Mix Modeling (MMM) package from Meta Marketing Science using multi-objective evolutionary algorithms (Nevergrad) with ridge regression, adstock, and saturation curves. |
 | **[pymc-labs/pymc-marketing](https://github.com/pymc-labs/pymc-marketing)** | [![Stars](https://img.shields.io/github/stars/pymc-labs/pymc-marketing?style=social&color=white)](https://github.com/pymc-labs/pymc-marketing/stargazers) | Python / PyMC | 🔬 Bayesian marketing toolbox implementing Media Mix Modeling (MMM), Customer Lifetime Value (CLV), Buy 'Til You Die (BTYD), and causal attribution models with full parameter uncertainty intervals. |
@@ -110,7 +110,7 @@ Curated open-source attribution libraries, media mix modeling engines, and mobil
 Contributions are always welcome! Help us keep this directory accurate and comprehensive:
 
 1. 🍴 Fork the repository.
-2. 📝 Add or edit entries in `README.md` (ensure SaaS listings include pricing/limits and open-source listings include star badges).
+2. 📝 Add or edit entries in `README.md` (ensure SaaS listings include pricing/limits and open-source listings include Stars_Badges).
 3. 🧪 Ensure all links and markdown syntax are valid.
 4. 🚀 Submit a Pull Request with a clear description of the addition.
 
