@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <linearGradient id="primaryTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="subTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Drop Shadows and Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="blurBg" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.7" stroke-opacity="0.35" />
+    </pattern>
+
+    <style>
+      .title-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 46px;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0.2px;
+      }
+      .desc-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        fill: #94a3b8;
+      }
+      .badge-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+      }
+
+      /* CSS Animations */
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.7; transform: scale(1.08); }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -40; }
+      }
+      @keyframes nodePulse {
+        0%, 100% { r: 6; fill-opacity: 0.8; }
+        50% { r: 8.5; fill-opacity: 1; }
+      }
+
+      .glow-orb-1 {
+        animation: pulseGlow 8s ease-in-out infinite;
+        transform-origin: 200px 100px;
+      }
+      .glow-orb-2 {
+        animation: pulseGlow 10s ease-in-out infinite 3s;
+        transform-origin: 1000px 320px;
+      }
+      .flowing-line {
+        stroke-dasharray: 8 6;
+        animation: dashMove 3s linear infinite;
+      }
+      .floating-card-1 {
+        animation: floatSlow 6s ease-in-out infinite;
+      }
+      .floating-card-2 {
+        animation: floatReverse 7s ease-in-out infinite;
+      }
+      .live-node {
+        animation: nodePulse 3s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Background Layer -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+
+  <!-- Animated Glowing Background Orbs (Non-obstructive) -->
+  <circle cx="200" cy="90" r="140" fill="#3b82f6" filter="url(#blurBg)" class="glow-orb-1" opacity="0.4" />
+  <circle cx="1020" cy="330" r="160" fill="#ec4899" filter="url(#blurBg)" class="glow-orb-2" opacity="0.3" />
+  <circle cx="600" cy="390" r="120" fill="#8b5cf6" filter="url(#blurBg)" opacity="0.25" />
+
+  <!-- Tech Grid Pattern Overlay -->
+  <rect width="1200" height="420" fill="url(#gridPattern)" />
+
+  <!-- Dynamic Data Flow Diagram in Lower Background / Midground -->
+  <g opacity="0.6">
+    <!-- Curved Attribution Flow Lines -->
+    <path d="M 80 340 C 260 300, 320 380, 500 340 S 750 290, 920 340 S 1080 320, 1140 340" fill="none" stroke="#475569" stroke-width="2" />
+    <path d="M 80 340 C 260 300, 320 380, 500 340 S 750 290, 920 340 S 1080 320, 1140 340" fill="none" stroke="#60a5fa" stroke-width="2.5" class="flowing-line" opacity="0.8" />
+
+    <path d="M 120 360 C 300 390, 420 300, 620 360 S 840 400, 1020 350 S 1110 370, 1150 360" fill="none" stroke="#a855f7" stroke-width="2" class="flowing-line" style="animation-direction: reverse; animation-duration: 4.5s;" opacity="0.7" />
+
+    <!-- Diagram Touchpoint Nodes -->
+    <g transform="translate(240, 315)">
+      <circle cx="0" cy="0" r="14" fill="#1e293b" stroke="#3b82f6" stroke-width="2" />
+      <circle cx="0" cy="0" r="6" fill="#60a5fa" class="live-node" />
+    </g>
+    <g transform="translate(500, 340)">
+      <circle cx="0" cy="0" r="16" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
+      <circle cx="0" cy="0" r="7" fill="#c084fc" class="live-node" style="animation-delay: 1s;" />
+    </g>
+    <g transform="translate(750, 310)">
+      <circle cx="0" cy="0" r="14" fill="#1e293b" stroke="#ec4899" stroke-width="2" />
+      <circle cx="0" cy="0" r="6" fill="#f472b6" class="live-node" style="animation-delay: 1.8s;" />
+    </g>
+    <g transform="translate(980, 345)">
+      <circle cx="0" cy="0" r="15" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+      <circle cx="0" cy="0" r="6" fill="#34d399" class="live-node" style="animation-delay: 2.3s;" />
+    </g>
+  </g>
+
+  <!-- Interactive / Floating Pipeline Badges (Carefully positioned to flank bottom without obscuring title) -->
+  <g class="floating-card-1">
+    <rect x="75" y="275" width="165" height="42" rx="21" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="97" cy="296" r="6" fill="#38bdf8" />
+    <text x="114" y="301" fill="#e2e8f0" class="badge-text">📢 Ad Touchpoint</text>
+  </g>
+
+  <g class="floating-card-2">
+    <rect x="965" y="275" width="160" height="42" rx="21" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="987" cy="296" r="6" fill="#10b981" />
+    <text x="1004" y="301" fill="#e2e8f0" class="badge-text">💰 CRM Revenue</text>
+  </g>
+
+  <!-- High-Z Foreground Text & Branding (Guaranteed 100% Foreground Visibility) -->
+  <g id="foregroundContent">
+    <!-- Category Mini-Header Pill -->
+    <g transform="translate(420, 48)">
+      <rect x="0" y="0" width="360" height="32" rx="16" fill="#1e293b" fill-opacity="0.95" stroke="#3b82f6" stroke-width="1.5" />
+      <circle cx="16" cy="16" r="5" fill="#10b981" />
+      <text x="32" y="21" fill="#93c5fd" font-family="system-ui, sans-serif" font-weight="700" font-size="12" letter-spacing="1.2">CURATED DIRECTORY &amp; ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="132" text-anchor="middle" class="title-text" fill="url(#primaryTextGrad)" filter="url(#glow)">Awesome Ad Attribution</text>
+    <text x="600" y="185" text-anchor="middle" class="title-text" fill="#ffffff" letter-spacing="-0.5">&amp; CRM Integration</text>
+
+    <!-- Subtitle -->
+    <text x="600" y="228" text-anchor="middle" class="subtitle-text" fill="url(#subTextGrad)">
+      Multi-Touch Attribution • Marketing Mix Modeling (MMM) • Mobile MMPs • Revenue Closed-Loop
+    </text>
+
+    <!-- Tagline / SEO Feature Points -->
+    <text x="600" y="258" text-anchor="middle" class="desc-text">
+      From enterprise leaders (AppsFlyer, Adjust, Zoho) to powerful open-source engines (Meta Robyn, PyMC-Marketing, Google LightweightMMM)
+    </text>
+  </g>
+
+  <!-- Outer Border Frame -->
+  <rect x="1" y="1" width="1198" height="418" rx="12" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
+</svg>
